@@ -3,15 +3,14 @@ Pod::Spec.new do |s|
   s.name         = "ErosPluginUMAnalytics"
   s.version      = "1.0.0"
   s.summary      = "ErosPluginUMAnalytics Source ."
-  s.homepage     = 'https://github.com/bmfe/eros-plugin-ios-UMAnalytics'
+  s.homepage     = 'https://github.com/kang558/eros-plugin-ios-TencentCaptcha'
   s.license      = "MIT"
-  s.authors      = { "xionghuayu" => "18601949015@163.com" }
+  s.authors      = { "kang558" => "kang558@foxmail.com" }
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source = { :git => 'https://github.com/bmfe/eros-plugin-ios-UMAnalytics.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/kang558/eros-plugin-ios-TencentCaptcha.git', :tag => s.version.to_s }
 
   s.source_files = "Source/*.{h,m,mm}"
   s.requires_arc = true
-  s.dependency 'UMCAnalytics', '5.5.0'
 
 end

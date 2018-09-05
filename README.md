@@ -1,2 +1,2 @@
-# eros-plugin-ios-UMAnalytics
-Eros 友盟统计插件
+# eros-plugin-ios-TencentCaptcha
+Eros 腾讯防水墙插件
