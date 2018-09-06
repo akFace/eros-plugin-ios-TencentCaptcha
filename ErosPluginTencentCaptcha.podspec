@@ -1,8 +1,8 @@
 # coding: utf-8
 Pod::Spec.new do |s|
-  s.name         = "ErosPluginUMAnalytics"
-  s.version      = "1.0.0"
-  s.summary      = "ErosPluginUMAnalytics Source ."
+  s.name         = "TencentCaptcha"
+  s.version      = "0.0.1"
+  s.summary      = "TencentCaptcha Source ."
   s.homepage     = 'https://github.com/kang558/eros-plugin-ios-TencentCaptcha'
   s.license      = "MIT"
   s.authors      = { "kang558" => "kang558@foxmail.com" }
