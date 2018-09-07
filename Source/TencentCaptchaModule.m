@@ -4,9 +4,6 @@
 //
 //  Created by XHY on 2018/7/18.
 //
-#import "YYModel.h"
-#import "BMMediatorManager.h"
-#import "NSDictionary+Util.h"
 
 #import "TencentCaptchaModule.h"
 #import <WeexPluginLoader/WeexPluginLoader/WeexPluginLoader.h>
@@ -53,11 +50,7 @@ WX_EXPORT_METHOD(@selector(showCaptcha:))
 
 	    /* 成功回调 */
         if (successCallback) {
-        	UMSocialUserInfoResponse *resp = resultJSON;
-            
-            NSMutableDictionary *resultInfo = [resp yy_modelToJSONObject];
-            NSDictionary *resDic = [NSDictionary configCallbackDataWithResCode:BMResCodeSuccess msg:@"验证成功" data:resultInfo];
-            successCallback(resDic);
+            successCallback(resultJSON);
         }
 
 	}];
