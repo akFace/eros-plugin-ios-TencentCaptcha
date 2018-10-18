@@ -1,5 +1,9 @@
 # eros-plugin-ios-TencentCaptcha
 Eros 腾讯防水墙插件 
+
+## 示例
+<img src="https://raw.githubusercontent.com/kang558/eros-plugin-ios-TencentCaptcha/master/screenshot.png" width="480">
+
 ## 集成
 - 1、在iOS项目文件夹的`Podfile`中添加以下代码，然后执行 `pod update`
 ```
